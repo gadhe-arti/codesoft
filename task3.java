@@ -84,7 +84,7 @@ class ATM {
         System.out.print("Enter deposit amount: $");
         double amount = scanner.nextDouble();
         if (account.deposit(amount)) {
-            System.out.println("✅ Deposit successful.");
+            System.out.println("✅ successful.");
         } else {
             System.out.println("❌ Deposit failed. Please enter a valid amount.");
         }
